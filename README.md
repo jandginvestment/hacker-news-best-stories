@@ -2,8 +2,8 @@
 ## Table of contents
 - [ ] [Overview](#Overview)
   - [ ] [Features](#Features)
-- [ ] [Technical Overview](#Technical Overview)
-  - [ ] [Key Components](#Key Components)
+- [ ] [Technical Overview](#Technical-Overview)
+  - [ ] [Key Components](#Key-Components)
 - [ ] 
 - ---
 ## Overview
