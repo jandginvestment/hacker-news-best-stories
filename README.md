@@ -1,10 +1,14 @@
 # Hacker News Best Stories Restful API Service
 ## Table of contents
-- [Overview](#Overview)
+- [ ] [Overview](#Overview)
+  - [ ] [Features](#Features)
+- [ ] [Technical Overview](#Technical Overview)
+  - [ ] [Key Components](#Key Components)
+- [ ] 
 - ---
 ## Overview
  The `HNBS` is a .NET core minimal webAPI service that leverages the Hacker News API to fetch the best "n" number of stories
-## Features
+### Features
  - Retrieves the "n" number of the best hacker news stories based on the score. [n limits to 200]
  - Caches the `best hacker news stories` in Azure Redis  to improve the performance and efficiently handle large numbers of requests
 without the risk of overloading the Hacker News API.
