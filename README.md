@@ -1,4 +1,7 @@
-# Hacker News Best Stories Service
+# Hacker News Best Stories Restful API Service
+## Table of contents
+- [Overview](#Overview)
+- ---
 ## Overview
  The `HNBS` is a .NET core minimal webAPI service that leverages the Hacker News API to fetch the best "n" number of stories
 ## Features
