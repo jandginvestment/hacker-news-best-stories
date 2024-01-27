@@ -13,7 +13,7 @@
     - [ ] [HackerNewsService](#HackerNewsService)
 - [ ] [Benefits](#Benefits)
 - [ ] [Future Enhancements](#Future-Enhancements)
-<hr style="border-top: 1px solid;"/>
+## 
 ## Overview
  The `HNBS` is a .NET core minimal webAPI service that leverages the Hacker News API to fetch the best "n" number of stories
 ### Features
