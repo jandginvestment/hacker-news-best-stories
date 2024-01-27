@@ -87,7 +87,7 @@ public class HackerNewsService : IHackerNewsService
     {
         var database = _redisConnection.GetDatabase();
         var jsonBestHNStories = JsonConvert.SerializeObject(hackerNewsStories);
-
-        var value = await database.StringSetAsync("bestStories", jsonBestHNStories, expiry: TimeSpan.FromMinutes(5));
+        //Considering the refresh frequency on an hourly basis.
+        await database.StringSetAsync("bestStories", jsonBestHNStories, expiry: TimeSpan.FromHours(1));
     }
 }
