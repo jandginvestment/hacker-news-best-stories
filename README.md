@@ -9,11 +9,11 @@
   - [ ] [Technology Used](#Technology-used)
   - [ ] [Installation and Setup of the Project](#Installation-and-Setup-of-the-project)
   - [ ] [Usage / Code Structure](#Usage-/-Code-Structure)
-    - [ ] [API EndPoint:](#API-EndPoint:)
+    - [ ] [API EndPoint:](#API-EndPoint)
     - [ ] [HackerNewsService](#HackerNewsService)
 - [ ] [Benefits](#Benefits)
 - [ ] [Future Enhancements](#Future-Enhancements)
-<hr style="border-top: 1px solid;"/>
+## 
 ## Overview
  The `HNBS` is a .NET core minimal webAPI service that leverages the Hacker News API to fetch the best "n" number of stories
 ### Features
@@ -47,7 +47,7 @@ without the risk of overloading the Hacker News API.
 1. can be packaged and deployable in multiple environments.
 
 ### Usage / Code Structure
- #### API EndPoint:
+ #### API EndPoint
   - ``GET`` : {localhost:port}/api/hnbs?numberOfStories = \{number}
 	 > this method returns \{number} of JSON array of `HackerNewsStoryDTO` objects.
 #### HackerNewsService
