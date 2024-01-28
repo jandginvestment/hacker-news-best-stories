@@ -62,4 +62,5 @@ without the risk of overloading the Hacker News API.
 -  Leverages Azure Redis for scalable caching.
 
 ## Future Enhancements
-- unit test cases and load/stress test cases needs to be added. 
+- unit test cases and load/stress test cases needs to be added.
+  # Updated version with APIGatway can be found at [https://github.com/jandginvestment/hnbs/](https://github.com/jandginvestment/hnbs/)
